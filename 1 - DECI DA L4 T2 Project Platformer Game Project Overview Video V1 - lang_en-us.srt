@@ -1,0 +1,379 @@
+1
+
+00:00:00,000  -->  00:00:03,420
+Let's take a look at the completed 2D platformer game.
+
+2
+
+00:00:03,420  -->  00:00:06,410
+Here it's running full screen on my Windows PC.
+
+3
+
+00:00:06,410  -->  00:00:09,160
+Here we see our playable character in the center,
+
+4
+
+00:00:09,160  -->  00:00:11,120
+looks like a green pig character.
+
+5
+
+00:00:11,120  -->  00:00:14,740
+We've got an enemy character off to the side there in that blue shell,
+
+6
+
+00:00:14,740  -->  00:00:17,840
+create objects and different pickup objects around the world.
+
+7
+
+00:00:17,840  -->  00:00:20,580
+The pickups look like little strawberries that you can get.
+
+8
+
+00:00:20,580  -->  00:00:23,120
+We also see a tile-base level design with
+
+9
+
+00:00:23,120  -->  00:00:25,940
+all these platform areas that we can walk around on,
+
+10
+
+00:00:25,940  -->  00:00:27,280
+and at the top of the screen,
+
+11
+
+00:00:27,280  -->  00:00:29,760
+we see the user interface with a Score,
+
+12
+
+00:00:29,760  -->  00:00:32,025
+the Instructions, and a Restart button.
+
+13
+
+00:00:32,025  -->  00:00:33,660
+Now the score starts at zero,
+
+14
+
+00:00:33,660  -->  00:00:37,920
+but it'll go up by one each time I collect one of these pickups and
+
+15
+
+00:00:37,920  -->  00:00:42,560
+the instructions are shown to help the user understand how to play using the arrow keys.
+
+16
+
+00:00:42,560  -->  00:00:44,560
+After we collect the first strawberry,
+
+17
+
+00:00:44,560  -->  00:00:46,140
+the use arrow keys will disappear,
+
+18
+
+00:00:46,140  -->  00:00:48,380
+giving us a little bit more screen real estate so we
+
+19
+
+00:00:48,380  -->  00:00:51,045
+can enjoy the tile-base level design.
+
+20
+
+00:00:51,045  -->  00:00:53,760
+The restart button can be clicked at any time
+
+21
+
+00:00:53,760  -->  00:00:57,265
+and restarts a fresh game session. Let's take a look at that.
+
+22
+
+00:00:57,265  -->  00:00:59,830
+Here with my mouse, I can click the Restart button
+
+23
+
+00:00:59,830  -->  00:01:04,180
+and our character disappears and restarts again.
+
+24
+
+00:01:04,180  -->  00:01:07,845
+Let's take a look at the controls in the audio of the game.
+
+25
+
+00:01:07,845  -->  00:01:10,480
+As I click Up Arrow, I can jump,
+
+26
+
+00:01:10,480  -->  00:01:12,720
+and we hear a little pop sound as I jump
+
+27
+
+00:01:12,720  -->  00:01:15,840
+up and a little sound as I land on the platform again.
+
+28
+
+00:01:15,840  -->  00:01:19,340
+Then I can use the Right and the Left Arrow keys to walk around.
+
+29
+
+00:01:19,340  -->  00:01:20,880
+When I collect this strawberry,
+
+30
+
+00:01:20,880  -->  00:01:23,600
+we'll hear a little sound confirming I've gotten some points,
+
+31
+
+00:01:23,600  -->  00:01:26,675
+and we'll see the score update in the user interface.
+
+32
+
+00:01:26,675  -->  00:01:30,855
+Nice chime. I'll jump up and collect another one here.
+
+33
+
+00:01:30,855  -->  00:01:32,630
+As I'm jumping around,
+
+34
+
+00:01:32,630  -->  00:01:34,130
+you can see in the background,
+
+35
+
+00:01:34,130  -->  00:01:39,470
+there's this sunset sky color and also the cloud.
+
+36
+
+00:01:39,470  -->  00:01:42,690
+Each of those layers moves a little bit different
+
+37
+
+00:01:42,690  -->  00:01:46,500
+than the way that the camera follows our character around the screen,
+
+38
+
+00:01:46,500  -->  00:01:48,850
+so it gives a little bit of a depth effect,
+
+39
+
+00:01:48,850  -->  00:01:51,850
+makes the level look a little bit more alive because
+
+40
+
+00:01:51,850  -->  00:01:56,985
+that clouds slightly different has just a nice, smooth, polished effect.
+
+41
+
+00:01:56,985  -->  00:01:59,760
+I can move that crate around as we saw before.
+
+42
+
+00:01:59,760  -->  00:02:02,355
+In case you wanted to create some puzzles in the games,
+
+43
+
+00:02:02,355  -->  00:02:04,485
+you'd be able to jump up on that,
+
+44
+
+00:02:04,485  -->  00:02:08,585
+and the game also has complete win and loss conditions.
+
+45
+
+00:02:08,585  -->  00:02:11,890
+Let's see how it would work. I'll click Restart again, and here,
+
+46
+
+00:02:11,890  -->  00:02:14,230
+I'll try to capture some of
+
+47
+
+00:02:14,230  -->  00:02:17,570
+the strawberries that we need but there's an enemy in my way here.
+
+48
+
+00:02:17,570  -->  00:02:19,050
+Now, if I touch the enemy,
+
+49
+
+00:02:19,050  -->  00:02:20,190
+I'll die and get reset.
+
+50
+
+00:02:20,190  -->  00:02:22,510
+Let's say I tried to jump, but I didn't,
+
+51
+
+00:02:22,510  -->  00:02:23,730
+and I hit the enemy,
+
+52
+
+00:02:23,730  -->  00:02:25,115
+so I get reset there,
+
+53
+
+00:02:25,115  -->  00:02:26,730
+or if as the player,
+
+54
+
+00:02:26,730  -->  00:02:30,725
+you get stuck between two platforms and you fall down off the world,
+
+55
+
+00:02:30,725  -->  00:02:34,735
+you also hit that red area there which kills you and gets you reset,
+
+56
+
+00:02:34,735  -->  00:02:38,190
+so now the player has a clear path to collect all the strawberries,
+
+57
+
+00:02:38,190  -->  00:02:42,565
+but also some tension created by the enemies and being able to fall off things,
+
+58
+
+00:02:42,565  -->  00:02:45,130
+so we'll see how I'm able to play around
+
+59
+
+00:02:45,130  -->  00:02:48,790
+the world and collect all of the different pickups.
+
+60
+
+00:02:48,790  -->  00:02:51,570
+Hopefully, this time, I make it.
+
+61
+
+00:02:52,790  -->  00:02:56,810
+I died that time. We'll try one more time here.
+
+62
+
+00:02:58,700  -->  00:03:02,390
+This is a little tricky to get so I'll get a running start.
+
+63
+
+00:03:02,390  -->  00:03:05,650
+Now, I'll be careful not to hit our enemy there.
+
+64
+
+00:03:07,690  -->  00:03:11,270
+This is going to be the eighth one that I collect,
+
+65
+
+00:03:11,270  -->  00:03:12,590
+and that'll be it for the old game.
+
+66
+
+00:03:12,590  -->  00:03:15,725
+It should finish when I collect this last strawberry.
+
+67
+
+00:03:15,725  -->  00:03:18,650
+The text at the top updates to you win.
+
+68
+
+00:03:18,650  -->  00:03:20,930
+We can see our score is eight out of eight.
+
+69
+
+00:03:20,930  -->  00:03:22,730
+Just to keep the graphics alive,
+
+70
+
+00:03:22,730  -->  00:03:25,010
+I have the playable character,
+
+71
+
+00:03:25,010  -->  00:03:27,950
+continue to breathe here in mid air as a victory,
+
+72
+
+00:03:27,950  -->  00:03:29,990
+and the input is disabled.
+
+73
+
+00:03:29,990  -->  00:03:34,090
+I'm not able to move around which is a nice confirming sign that the game is over.
+
+74
+
+00:03:34,090  -->  00:03:35,910
+At any time, including now,
+
+75
+
+00:03:35,910  -->  00:03:40,120
+the player can hit the restart button and be able to restart and play again.
+
+76
+
+00:03:40,120  -->  00:03:43,100
+That's it. That's the complete game.
